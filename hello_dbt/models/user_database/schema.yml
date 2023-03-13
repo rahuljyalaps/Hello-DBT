@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: user_data_source
+    database: dbt_demo
+    schema: public
+    tables:
+      - name: user_data
